@@ -7,7 +7,7 @@ stages
 
 
   stage('building the job')
-    {steps { sh 'echo code_is_building' }}
+    {steps { sh 'ehoco code_is_building' }}
 
 
   stage('deloy artifact')
