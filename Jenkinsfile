@@ -4,16 +4,16 @@ pipeline   	                                      //it starts with pipeline keyw
  stages      	                                      //it contains stages
 
   {
-   stage ('print something')            	  //stage name
+   stage ('print something')            	  //print
    { steps { sh 'echo Hello_Jenkins' } }
   }
 
  {
-   stage ('build project')            	  //stage name
+   stage ('build project')            	  //build
    { steps { sh 'echo build project' } }
   }
  {
-   stage ('deploy project')            	  //stage name
+   stage ('deploy project')            	  //deploy
    { steps { sh 'echo deploy project' } }
  }
 }
