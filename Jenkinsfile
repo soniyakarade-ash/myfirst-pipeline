@@ -15,5 +15,5 @@ pipeline   	                                      //it starts with pipeline keyw
  {
    stage ('deploy project')            	  //stage name
    { steps { sh 'echo deploy project' } }
-  }
+ }
 }
