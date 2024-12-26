@@ -7,4 +7,13 @@ pipeline   	                                      //it starts with pipeline keyw
    stage ('print something')            	  //stage name
    { steps { sh 'echo Hello_Jenkins' } }
   }
+
+ {
+   stage ('build project')            	  //stage name
+   { steps { sh 'echo build project' } }
+  }
+ {
+   stage ('deploy project')            	  //stage name
+   { steps { sh 'echo deploy project' } }
+  }
 }
