@@ -6,6 +6,5 @@ pipeline   	                                      //it starts with pipeline keyw
   {
    stage ('print something')            	  //stage name
    { steps { sh 'echo Hello_Jenkins' } }
-
-}
+  }
 }
